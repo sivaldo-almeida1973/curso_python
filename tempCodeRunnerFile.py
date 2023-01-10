@@ -1,0 +1,1 @@
+elif not nome and  idade:
