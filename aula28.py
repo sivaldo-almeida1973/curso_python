@@ -1,7 +1,7 @@
 """
 Exercício
-Peça ao usuario para digitar seu noome
-Peça ao usuario para digitar sua idade
+Peça ao usuario para digitar seu nome
+Peça ao usuário para digitar sua idade
 Se o nome e a idade forem digitados :
  ....Exiba:
  .........Seu nome é {nome}
@@ -19,12 +19,13 @@ idade = input('digite sua idade: ')
 if nome and idade :
     print(f'seu nome é {nome} ')
     print(f'seu nome invertido é {nome[::-1]}')
-    if ' ' in nome:
+
+    if ' ' in nome: #se tem espaços no nome
         print('seu nome contem espaços')
     else:
         print('seu nome não contém espaços')
 
-    print(f'seu nome tem {(len(nome))} letras ')
+    print(f'seu nome tem {(len(nome))} letras ') #quantas letras
     print(f'a primeira letra do seu nome é {nome[0]}')
     print(f'a ultima letra do seu nome é {nome[-1]}')
 else:
