@@ -9,6 +9,6 @@ de carateres da str,
 """
 
 variavel = 'Olá mundo'
-print(variavel [8:9])
-print(len(variavel))
-print(variavel[0:9:4])
+print(variavel [:9])# toda variavel
+print(len(variavel))# quantas letras
+print(variavel[-1])#ultima letra
