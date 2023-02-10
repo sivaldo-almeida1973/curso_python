@@ -19,4 +19,6 @@ elif condicao4:
 
 else:
     print('Nenhuma das condições')
+
+print('seja feliz')
     
