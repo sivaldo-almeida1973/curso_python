@@ -15,7 +15,7 @@ print(1.1, 10.11) #float
 print(0.0) #float
 print(0.0, -1.2) #float
 
-# A função type mostra o tipo que o Python inferiu ao valor.
+# A classe type mostra o tipo que o Python inferiu ao valor.
 
 print(  type('sivaldo')   )
 print(  type(3)   )
