@@ -21,3 +21,5 @@ print(variavel)
 
 
 print('O hexadecimal de %d é %2X' % (150, 150))
+
+print('o hexadecimal de %d é %04x' % (200,200))
