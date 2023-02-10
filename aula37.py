@@ -1,13 +1,17 @@
-nome= 'Sivaldo'
-sobrenome = 'vieira de almeida'
-idade = 49
-ano_nascimento = 2023 - idade
-maior_de_idade = idade >= 18
-altura_metros = 1.73
+nome = input('digite seu nome: ')
+idade = input('digite sua idade: ')
 
-print('Nome:', nome)
-print('Sobrenome:' ,sobrenome)
-print('Idade:' ,idade)
-print('Ano de Nascimento:' ,ano_nascimento)
-print('É maior de idade:' ,maior_de_idade)
-print('Altura:' ,altura_metros)
+if nome and idade :
+  print(f'seu {nome=}') 
+  print(f'seu nome invertido é {nome[:: -1]}')
+
+  if ' ' in nome:
+   print(f'seu nome Contem espaços')
+  else:
+   print(f'seu nome Não contem espaços')
+
+   print(f'seu nome tem{ (len(nome))} letras')
+   print(f'A primeira letra do seu nome é:{nome[0]}')
+   print(f'A ultima letra do seu nome é:{nome[-1]}')
+
+  
