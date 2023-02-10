@@ -1,4 +1,4 @@
-# Oeradores in e not in
+# Oeradores in (entre) e not in(não esta entre)
 # strings são iteráveis
 # 0 1 2 3 4 5
 # o t á v i O
@@ -19,4 +19,4 @@ encontrar = input('Digite o que deseja encontrar: ')
 if encontrar in nome:
     print(f'{encontrar} está em {nome} ')
 else:
-    prin(f'{encontrar} não está em {nome}' )
+    print(f'{encontrar} não está em {nome}' )
