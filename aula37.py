@@ -1,17 +1,19 @@
-nome = input('digite seu nome: ')
-idade = input('digite sua idade: ')
+contador = 0
 
-if nome and idade :
-  print(f'seu {nome=}') 
-  print(f'seu nome invertido é {nome[:: -1]}')
+while contador <= 100:
+  contador += 1
+  if contador == 6:
+    print('nao vou mostrar o 6')
+    continue #vai continuar apos o 6
 
-  if ' ' in nome:
-   print(f'seu nome Contem espaços')
-  else:
-   print(f'seu nome Não contem espaços')
+  if contador >= 10 and contador <=27:
+    print('nao vou mostrar o ', contador)
+    continue
 
-   print(f'seu nome tem{ (len(nome))} letras')
-   print(f'A primeira letra do seu nome é:{nome[0]}')
-   print(f'A ultima letra do seu nome é:{nome[-1]}')
+  print(contador)
 
-  
+  if contador == 40:
+    break
+
+print('acabou')
+
