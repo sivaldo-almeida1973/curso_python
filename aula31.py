@@ -1,7 +1,7 @@
 '''
 flag (Bandeira) - marcar local
 None = Não valor
-is e is nott = é ou não é (tipo , valor, identidade)
+is e is not = é ou não é (tipo , valor, identidade)
 id = identidade
 
 '''
