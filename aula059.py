@@ -10,4 +10,4 @@ Operação ternaria (condicional de uma linha) <valor> if <condicao> else <outro
 #novo_digito = 0 if digito > 9 else digito
 #print(novo_digito)
 
-print('valor' if False else 'Outro valor' if False else 'fim')
+print('valor' if True else 'Outro valor' if False else 'fim')
