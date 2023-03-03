@@ -22,7 +22,7 @@ Obter o resto da divisão da conta por 11
 
 se o resultado anterior for maior que 9:
      resultado é 0
-contraeio disso:
+contrario disso:
      resultado é o valor da conta
      .
 o primeiro digito do CPF é 7
